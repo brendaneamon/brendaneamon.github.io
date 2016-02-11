@@ -1,16 +1,16 @@
-/*dont think auto applies to width on line 7*/
-/*need to remove the comma from lines 13 and 35*/
+/*removed 80em reference on width on line 7*/
+/*removed the commas from lines 13 and 35*/
 
 body {
   font-family: Georgia, serif;
   background: #ffffff;
-  width: 80em auto;
+  width: auto;
 }
 
 h1 {
   font-size: 3em;
   border-bottom: 2px solid #000000;
-  padding: 0, 10px;
+  padding: 0 10px;
   width: auto;
   margin-bottom: 10px;
 }
@@ -27,12 +27,16 @@ h3 {
 }
 
 .project {
-  margin: 2em auto;;
+  margin: 2em auto;
+}
+
+main {
+
 }
 
 li {
-  display: inline-block;;
-  margin: 0, 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 a {
@@ -53,6 +57,8 @@ img {
   float: right;
   border: 2px solid #000000;
   margin: 0 1em;
+  margin-bottom: 10px;
+  /*added in margin to seperate text from bottom of picture*/
 }
 
 footer {
