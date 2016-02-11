@@ -1,0 +1,17 @@
+body {
+  font-family: Georgia, serif;
+  background: #ffffff;
+}
+
+h1 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+h2 {
+}
+
+ul {
+  display: inline-block;
+  text-align: center;
+}
