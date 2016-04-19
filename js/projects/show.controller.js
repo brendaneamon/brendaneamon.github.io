@@ -9,7 +9,7 @@
     ShowController
   ]);
 
-  function ShowController(ProjectFactory, $stateParams){
+  function ShowController(Project, $stateParams){
     this.project = ProjectFactory.get({title: $stateParams.title});
   }
 }());

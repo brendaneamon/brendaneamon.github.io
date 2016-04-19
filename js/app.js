@@ -8,12 +8,10 @@
   ])
   .config([
     "$stateProvider",
-    "$locationProvider",
     Router
   ]);
 
-  function Router($stateProvider, $locationProvider){
-    $locationProvider.html5Mode(true);
+  function Router($stateProvider){
     $stateProvider
     .state("projectIndex", {
       url: "/projects",
