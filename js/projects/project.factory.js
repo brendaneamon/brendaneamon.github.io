@@ -1,4 +1,3 @@
-
 (function(){
   "use strict";
 
@@ -10,6 +9,6 @@
     ]);
 
   function ProjectFactory($resource){
-    return $resource("db/projects.json/:title");
+    return $resource("db/data.js");
   }
 }());

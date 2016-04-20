@@ -1,4 +1,4 @@
-[
+var data = [
   {
     "title": "Project 1"
   },
@@ -8,4 +8,4 @@
   {
     "title": "Project 3"
   }
-]
+];
