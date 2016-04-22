@@ -1,0 +1,13 @@
+header {
+  margin-bottom: 2em;
+}
+
+#modal-img {
+  margin-top: 1.5em;
+  text-align: center;
+}
+
+.modal {
+  width: 60% !important ;
+  max-height: 100% !important;
+}

@@ -11,8 +11,11 @@
 <body>
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Pleased to Meet You, Friend</h4>
-      <p>Hi, I'm Brendan, and I'm a web developer.</p>
+      <h4>Hi, I'm Brendan.</h4>
+      <p>I'm an omnivorous learner, an enthusiastic educator, and a dedicated web developer. I implement technical solutions that are informed by my foundation in the humanities, because technology exists to serve the needs of human beings&mdash;at least until the robots take over the planet.</p>
+      <div id="modal-img">
+      <img class="circle responsive-img z-depth-2" src="assets/images/brendan.jpg" alt="Brendan on the Carrick-a-Rede Rope Bridge">
+      </div>
     </div>
     <div class="modal-footer">
       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Dismiss</a>
@@ -39,7 +42,9 @@
     </nav>
   </header>
   <main class="container">
-    <h1 class="center-align">Brendan E. Magee</h1>
+    <div class="section">
+      <h1 class="center-align">Brendan E. Magee</h1>
+    </div>
     <div class="divider"></div>
     <div class="section">
       <h2 class="center-align">Project Portfolio</h2>
@@ -48,7 +53,7 @@
         <div class="col s12 m6">
           <div class="card z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator responsive-img" src="assets/images/zoosnapz.png">
+              <img class="activator responsive-img" src="assets/images/zoosnapz.png" alt="ZoosnapZ homepage">
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">ZoosnapZ<i class="material-icons right">more_vert</i></span>
@@ -59,7 +64,7 @@
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">ZoosnapZ<i class="material-icons right">close</i></span>
-              <p>ZoosnapZ is a web application application comprised of an API developed in Ruby on Rails that is connected to a front end built with AngularJS. The application was a group effort by three developers: Brendan Magee (i.e., yours truly), Christine Movius, and Charles Hwang.</p>
+              <p>ZoosnapZ is a web application application comprised of an API developed in Ruby on Rails, connected to a front end built with AngularJS. The application is the result of a group effort by three developers: Brendan Magee (i.e., yours truly), Christine Movius, and Charles Hwang.</p>
               <p>ZoosnapZ was designed to provide a mobile-friendly and user-friendly experience of the data about the various animals at the Zoo. We set out to improve on the experience currently available on the <a href="https://nationalzoo.si.edu/" target="_blank">National Zoo's website</a> by focusing exclusively on the animals themselves, rather than other zoo-related information (e.g., events, membership, etc.)</p>
               <p>We built a single landing page with some basic information about the zoo as well as some social content in the form of Instagram posts from the Zoo's official Instagram account. Other sections of the app include information about various animals in the Zoo (currently only reptiles and mammals, with more to come in future versions).</p>
             </div>
@@ -68,7 +73,7 @@
         <div class="col s12 m6">
           <div class="card z-depth-2">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator responsive-img" src="assets/images/kleos.png">
+              <img class="activator responsive-img" src="assets/images/kleos.png" alt="Kleos App homepage">
             </div>
             <div class="card-content">
               <span class="card-title activator grey-text text-darken-4">Kleos App<i class="material-icons right">more_vert</i></span>
@@ -80,7 +85,7 @@
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Kleos App<i class="material-icons right">close</i></span>
               <p>The Kleos App was designed to provide secondary- and university-level Classics, mythology, and literature students with a reference that will allow them to keep track of important characters in Homer's Iliad. Instructors can add, edit, and delete mythological figures and locations within the application, and students are merely able to access information through different views.</p>
-              <p>The homepage for the app displays prominent figures, both human and divine, from Homer's Iliad. Upon mouseover, the background of the figure turns red for mortals and blue for deities. Users can click on the English name of the figure to view a details page including the figure's name (English and ancient Greek), Homeric epithets, description, allegiance (Greeks, Trojans, or neutral), and a featured image.</p>
+              <p>The homepage for the app displays prominent figures, both human and divine, from Homer's <em>Iliad</em>. Upon mouseover, the background of the figure turns red for mortals and blue for deities. Users can click on the English name of the figure to view a details page including the figure's name (English and ancient Greek), Homeric epithets, description, allegiance (Greeks, Trojans, or neutral), and a featured image.</p>
               <p>The user can also see the figure's home location on the same page. Likewise, when users view a "home" location ("Cities or Kingdoms"), they are able to view details for that location, including figures associated with or residing at the location.</p>
             </div>
           </div>
@@ -90,9 +95,20 @@
     <div class="divider"></div>
   </main>
 
-  <footer>
-
+  <footer class="page-footer green darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Made in Washington, DC</h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      </div>
+    </div>
   </footer>
+
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>
