@@ -1,113 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Brendan E. Magee Portfolio</title>
-  <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-  <link rel="stylesheet" href="assets/css/materialdesignicons.min.css" media="all" type="text/css" />
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brendan Magee</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #fafafa;
+      color: #24292f;
+    }
+    main { text-align: center; padding: 2rem; }
+    h1 { font-size: 1.8rem; font-weight: 600; margin-bottom: 0.4rem; }
+    p { font-size: 1rem; color: #57606a; margin-bottom: 1.5rem; }
+    nav a {
+      color: #57606a;
+      text-decoration: none;
+      margin: 0 0.75rem;
+      font-size: 0.95rem;
+    }
+    nav a:hover { color: #24292f; text-decoration: underline; }
+  </style>
 </head>
 <body>
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Hi, I'm Brendan.</h4>
-      <div id="modal-img">
-        <img class="circle responsive-img z-depth-2" src="assets/images/brendan.jpg" alt="Brendan on the Carrick-a-Rede Rope Bridge">
-      </div>
-      <p>I'm a full-stack web developer who specializes in AngularJS, SASS, and Ruby on Rails. To learn more about my technological interests, check out my <a href="https://github.com/brendaneamon" target="_blank">GitHub profile</a>.</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Dismiss</a>
-    </div>
-  </div>
-  <header>
-    <nav class="green darken-2">
-      <div class="nav-wrapper container"><a id="logo-container" href="#modal1" class="brand-logo waves-effect waves-light modal-trigger">About Me</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="https://github.com/brendaneamon"><i class="mdi mdi-github-box"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/brendaneamonmagee"><i class="mdi mdi-linkedin-box"></i></a></li>
-          <li><a href="https://argeiphontes.wordpress.com/"><i class="mdi mdi-wordpress"></i></a></li>
-        </ul>
-
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="https://github.com/brendaneamon"><i class="mdi mdi-github-box left"></i>GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/brendaneamonmagee"><i class="mdi mdi-linkedin-box left"></i>LinkedIn</a></li>
-          <li><a href="https://argeiphontes.wordpress.com/"><i class="mdi mdi-wordpress left"></i>WordPress</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
+  <main>
+    <h1>Brendan Magee</h1>
+    <p>Software engineer at Flox · London</p>
+    <nav>
+      <a href="https://github.com/brendaneamon">GitHub</a>
+      <a href="https://www.linkedin.com/in/brendaneamonmagee">LinkedIn</a>
     </nav>
-  </header>
-  <main class="container">
-    <div class="section">
-      <h1 class="center-align">Brendan E. Magee</h1>
-    </div>
-    <div class="divider"></div>
-    <div class="section">
-      <h2 class="center-align">Web Development Project Portfolio</h2>
-
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="card z-depth-2">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator responsive-img" src="assets/images/mythos-hub.png" alt="Mythos Hub homepage">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Mythos Hub<i class="material-icons right">more_vert</i></span>
-            </div>
-            <div class="card-action">
-              <a href="https://mythos-hub.herokuapp.com/" target="_blank">Live App</a>
-              <a href="https://github.com/brendaneamon/mythos-hub" target="_blank">GitHub Repo</a>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Mythos Hub<i class="material-icons right">close</i></span>
-              <p>Mythos Hub constitutes the fruition of efforts that began when I was an adjunct instructor in Classics at the University of Maryland, College Park. Several years ago, I began compiling various references to mythological subjects in pop culture&mdash;music, art, comedy, theater&mdash;in order to enrich my students' appreciate of the deep impact of ancient tales on modern life.</p>
-              <p>Now, I've begun to make that my vision a reality with this app, which is built using the MEAN stack: MongoDB, Express.js, AngularJS, and Node.js. In the coming weeks, I'm going to be adding content and expanding the functionality, which currently includes login via Twitter.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m6">
-          <div class="card z-depth-2">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator responsive-img" src="assets/images/zoosnapz.png" alt="ZoosnapZ homepage">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">ZoosnapZ<i class="material-icons right">more_vert</i></span>
-            </div>
-            <div class="card-action">
-              <a href="http://zoosnapz.herokuapp.com" target="_blank">Live App</a>
-              <a href="https://github.com/cmmovius/zoosnapz" target="_blank">GitHub Repo</a>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">ZoosnapZ<i class="material-icons right">close</i></span>
-              <p>ZoosnapZ is a Ruby on Rails web application with an AngularJS front end. The application is the result of a group effort by three developers: Brendan Magee (i.e., yours truly), Christine Movius, and Charles Hwang.</p>
-              <p>ZoosnapZ was designed to provide a mobile-friendly and user-friendly experience of the data about the various animals at the Zoo. We set out to improve on the experience currently available on the <a href="https://nationalzoo.si.edu/" target="_blank">National Zoo's website</a> by focusing exclusively on the animals themselves, rather than other zoo-related information (e.g., events, membership, etc.)</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="divider"></div>
   </main>
-
-  <footer class="page-footer green darken-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Made in Washington, DC</h5>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      </div>
-    </div>
-  </footer>
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-  <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
